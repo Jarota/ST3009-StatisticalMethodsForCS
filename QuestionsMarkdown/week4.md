@@ -27,4 +27,14 @@ CDF
 ![CDF](week4q2cdf.svg)
 
 Q3  
-a) 
+a) Every roll will be either 1 or greater, so the minimum value cannot be lower than one. $P(X \ge 1) = 1$  
+b) This is the same as the chance the none of the rolls are a 1. There are $5^4$ possible outcomes where there are no 1s. Which means $P(X \ge 2) = \frac{5^4}{6^4} = 0.4823$  
+c) CDF
+-   $P(X \le 1) = 1-P(X \ge 2) = 0.5177$
+-   $P(X \le 2) = 1-P(X \ge 3) = 0.8025$
+-   $P(X \le 3) = 1-P(X \ge 4) = 0.9375$
+-   $P(X \le 4) = 1-P(X \ge 5) = 0.9877$
+-   $P(X \le 5) = 1-P(X \ge 6) = 0.9992$
+-   $P(X \le 6) = 1$
+
+![CDF2](week4q3cdf.svg)
