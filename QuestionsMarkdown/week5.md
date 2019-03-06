@@ -38,4 +38,8 @@ $$\frac{5}{13} * \frac{15}{39} = 0.1479 \ne 0.1282 = \frac{5}{39}$$
 c)
 $$E[X_2] = 1 * \frac{15}{39} + 0 * \frac{24}{39} = \frac{15}{39}$$
 d)
-$$$$
+$$P(Y = y | X = x) = \frac{P(Y = y "and" X = x )}{P(X = x)}$$
+$$E[Y | X = x] = \sum_y yP(Y = y | X = x)$$
+$$\frac5{39} \div \frac5{13} = \frac13$$
+$$\frac{10}{39} \div \frac5{13} = \frac23$$
+$$(\frac13 * 1) + (\frac23 * 0) = E[X_2 | X_1 = 1] = \frac13$$
